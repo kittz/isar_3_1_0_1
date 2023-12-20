@@ -186,7 +186,7 @@ jobs:
       - name: Run Flutter Integration tests
         continue-on-error: true
         timeout-minutes: ${{ inputs.timeout_minutes }}
-        uses: Wandalen/wretry.action@v1.0.36
+        uses: Wandalen/wretry.action@v1.3.0
         with:
           action: reactivecircus/android-emulator-runner@v2
           with: |
